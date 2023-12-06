@@ -3,7 +3,7 @@ const {
   getCategoryServices,
   getCategoryServicesById,
   updateCategoryServicesById,
-} = require("../services/Category.services");
+} = require("../services/category.services");
 
 exports.createCategory = async (req, res, next) => {
   try {
